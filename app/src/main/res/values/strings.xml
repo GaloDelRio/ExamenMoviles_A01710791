@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Examen</string>
+    <string name="date_description">Fecha</string>
+    <string name="event_description">Evento</string>
+    <string name="categories_description">Categorias</string>
+
 </resources>

@@ -1,0 +1,47 @@
+<!-- res/layout/activity_detalle.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Texto de fecha -->
+    <TextView
+        android:id="@+id/tvEventDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="18sp"
+        android:paddingBottom="8dp"
+        android:gravity="center" />
+
+    <!-- Texto de descripción -->
+    <TextView
+        android:id="@+id/tvEventDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="16sp"
+        android:paddingBottom="8dp"
+        android:gravity="center" />
+
+    <!-- Texto de categorías -->
+    <TextView
+        android:id="@+id/tvEventCategories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categories"
+        android:textSize="16sp"
+        android:gravity="center" />
+
+    <!-- Botón de regreso -->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginTop="16dp"
+        android:gravity="center" />
+
+</LinearLayout>
